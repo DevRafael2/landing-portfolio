@@ -1,0 +1,8 @@
+<nav #navbar class="nav-bar">
+    <img src="/assets/menu.svg" (click)="toggleMenu()" class="menu-toggle" width="45px" height="45px" alt="">
+    <a (click)="scrollToSection('home')" class="nav-item {{isOpen() ? 'd-block' : ''}}">Inicio</a>
+    <a (click)="scrollToSection('tech-section')" class="nav-item {{isOpen() ? 'd-block' : ''}}">Tecnologías</a>
+    <a (click)="scrollToSection('services')" class="nav-item {{isOpen() ? 'd-block' : ''}}">Servicios</a>
+    <a (click)="scrollToSection('about-me')" class="nav-item {{isOpen() ? 'd-block' : ''}}">Sobre mí</a>
+    <a (click)="scrollToSection('portfolio')" class="nav-item {{isOpen() ? 'd-block' : ''}}">Portafolio</a>
+</nav>

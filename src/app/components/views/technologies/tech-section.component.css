@@ -1,0 +1,19 @@
+.tech-section {
+    background: rgb(5, 0, 34);
+    color: white;
+    /* height: 20vh; */
+}
+
+
+.tech-content {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+@media(max-width: 1200px) {
+
+}

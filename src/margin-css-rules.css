@@ -1,0 +1,163 @@
+/*
+* Reglas margin 
+*/
+.m-10 {
+    margin: 10px !important;
+}
+
+.m-20 {
+    margin: 20px !important;
+}
+
+.m-30 {
+    margin: 30px !important;
+}
+
+.m-100 {
+    margin: 100px !important;
+}
+
+.m-150 {
+    margin: 150px !important;
+}
+
+.m-200 {
+    margin: 200px !important;
+}
+
+.m-250 {
+    margin: 250px !important;
+}
+
+
+
+/*
+* Reglas margin Eje X
+*/
+
+.mx-10 {
+    margin: 10px 0px !important;
+}
+
+.mx-20 {
+    margin: 20px 0px !important;
+}
+
+.mx-30 {
+    margin: 30px 0px !important;
+}
+
+.mx-100 {
+    margin: 100px 0px !important;
+}
+
+.mx-150 {
+    margin-top: 150px 0px !important;
+}
+
+.mx-200 {
+    margin-top: 200px 0px !important;
+}
+
+.mx-250 {
+    margin-top: 250px 0px !important;
+}
+/*
+* Reglas margin Eje Y
+*/
+
+.my-10 {
+    margin: 10px 0px !important;
+}
+
+.my-20 {
+    margin: 20px 0px !important;
+}
+
+.my-30 {
+    margin: 30px 0px !important;
+}
+
+.my-100 {
+    margin: 100px 0px !important;
+}
+
+.my-150 {
+    margin: 150px 0px !important;
+}
+
+.my-200 {
+    margin: 200px 0px !important;
+}
+/*
+* Reglas margin Bottom
+*/
+
+.mb-10 {
+    margin-bottom: 10px !important;
+}
+
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+
+.mb-50 {
+    margin-bottom: 50px !important;
+}
+
+.mb-100 {
+    margin-bottom: 100px !important;
+}
+
+.mb-150 {
+    margin-bottom: 150px !important;
+}
+
+.mb-200 {
+    margin-bottom: 200px !important;
+}
+
+.mb-250 {
+    margin-bottom: 250px !important;
+}
+
+
+
+/*
+* Reglas margin Top
+*/
+.mt-10 {
+    margin-top: 10px !important;
+}
+
+.mt-20 {
+    margin-top: 20px !important;
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+.mt-50 {
+    margin-top: 50px !important;
+}
+
+.mt-100 {
+    margin-top: 100px !important;
+}
+
+.mt-150 {
+    margin-top: 150px !important;
+}
+
+.mt-200 {
+    margin-top: 200px !important;
+}
+
+.mt-250 {
+    margin-top: 250px !important;
+}

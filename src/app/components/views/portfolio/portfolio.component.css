@@ -1,0 +1,6 @@
+.image-port {
+    margin: 20px 0px;
+    box-shadow: 0 0px 18px rgba(65, 0, 108, 0.411);
+    border-radius: 10px;
+    object-fit: cover;
+}

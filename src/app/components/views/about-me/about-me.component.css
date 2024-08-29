@@ -1,0 +1,17 @@
+.container-git {
+    height: auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #44005f;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    box-shadow: 0 1px 28px rgb(65, 0, 108);
+    cursor: pointer;
+}
+
+.container-git a {
+    color: white;
+    text-decoration: none;
+}

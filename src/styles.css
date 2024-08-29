@@ -1,1 +1,211 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Varela+Round&display=swap');
+@import url('margin-css-rules.css');
+@import url('padding-css-rules.css');
+@import url('row-columns-css-rules.css');
+@import url('scroll-css.css');
+
+
+span, div, p, section, aside, article, h1, h2, h3, h4, h5, button, input, select, label {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-wrap: wrap;
+    /* color: white; */
+}
+
+a {
+    scroll-behavior: smooth;
+}
+
+p {
+    font-size: 1.2em;
+    opacity: 0.8;
+}
+
+:root {
+    --primary-color: #1c0070;
+    --border-radius: 10px;
+    --transition-duration: 0.3s;
+    --secondary-color: #D7E3FF;
+    --scale-factor: 1.05;
+    --base-weight: 200;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    scroll-behavior: smooth;
+}
+
+
+.title {
+    font-size: 3.5rem !important;
+    font-weight:900 !important;
+    line-height: 1.5;
+    /* color: var(--primary-color);  */
+}
+.sub-title {
+    font-size: 2.5em !important;
+    font-weight:900 !important;
+    line-height: 1.5;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-primary {
+    color: var(--primary-color)
+}
+
+.section-page {
+    height: auto;
+    padding: 10px 100px 10px 100px;
+    border-radius: 20px;
+    box-sizing: content-box;
+    margin: 10px 20px;
+    position: relative; 
+}
+
+.border-card-section {
+    background: white;
+    box-sizing: content-box;
+    border-radius: 20px;
+}
+
+.border-card-section-grad {
+    background: linear-gradient(90deg,rgb(253, 229, 255) 51%, rgb(212, 210, 249) 100%);
+    box-sizing: content-box;
+    border-radius: 20px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .title, .description-landing {
+        text-align: center;
+        margin: 0;   
+        text-align: left !important;
+        line-height: 1.2;
+    }
+    .title {
+        font-size: 2.5em !important;
+        margin-bottom: 20px;
+    }
+    .section-page {
+        box-sizing: border-box;
+        padding: 100px 10px;
+    }
+}
+
+.flex-content-w-center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.d-flex-j-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hover-scale {
+    transition: transform 0.3s;
+}
+
+.hover-scale:hover {
+    transform:  scale(1.03);
+}
+
+
+.hover-rotate:hover {
+    transform: rotate(-5deg);
+}
+
+
+
+
+.fat-button {
+    border-radius: 100%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    width: 65px !important;
+    height: 65px !important;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fat-button img {
+    object-position: center;
+}
+
+.success {
+    background: #009602;
+}
+
+
+.text-white {
+    color: white;
+}
+
+
+.wave, .wave-r {
+    fill: #00081c;
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    height: 200px;
+}
+
+.wave-r {
+    transform: rotate(180deg);
+    top: 0;
+    left: 0;
+}
+
+.wave-style {
+    background: rgb(5, 0, 34);
+    fill: rgb(5, 0, 34);
+    position: absolute;
+    bottom: 0;
+    height: 0vh;
+    position: fixed;
+}
+
+
+.image-technology {
+    width: 55px;
+    height: 55px;
+    object-fit: coverssx;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0 1px 28px rgb(65, 0, 108);
+}
+
+
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
