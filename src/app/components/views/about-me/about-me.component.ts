@@ -10,8 +10,6 @@ import { Router } from "@angular/router";
 
 export class AboutMeComponent {
 
-    router : Router = inject(Router)
-
     goGitHub() {
         window.open('https://github.com/DevRafael2', '_blank');
     }
